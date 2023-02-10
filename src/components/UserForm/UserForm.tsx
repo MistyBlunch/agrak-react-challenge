@@ -136,6 +136,7 @@ const UserForm: React.FC<UserFormInterface> = (props: any) => {
                     value={value || ''}
                     label={'Email'}
                     error={!!error}
+                    type='email'
                     helperText={error ? error.message : null}
                   />
                 )}
