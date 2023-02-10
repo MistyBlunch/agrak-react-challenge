@@ -55,9 +55,20 @@ The API endpoint is [Api user](https://635017b9df22c2af7b630c3e.mockapi.io/api/v
 
 ![img_1.png](img_1.png)
 
+## Avatar
+I added a button to use the avatar API, the avatar link is generated based on the *first_name* when you click on "GEN AVATAR LINK" in the *create/edit view*.
+
 ## Delivery
 
 The only deliverable is a link to a public repository with the code of the application. You can use any repository
 hosting service you want (Github, Gitlab, Bitbucket, etc.)
 
-### Feel free to edit this README file to add any information you consider relevant to the solution.
+### How to execute the App
+1. Install dependencies
+```node
+npm i
+```
+1. Run project
+```node
+npm run start
+```
