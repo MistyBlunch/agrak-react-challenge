@@ -1,16 +1,17 @@
-import { useAppDispatch, useAppSelector } from "../redux/hooks";
-import { changeMessage, selectMessage } from "../redux/slices/basicSlice";
-import "./App.css";
+import AppRouter from '@/AppRouter'
+import { selectMessage } from '@/redux/slices/basicSlice'
+import { useAppDispatch, useAppSelector } from '../redux/hooks'
+import './App.css'
 
 function App() {
-  const message = useAppSelector(selectMessage);
-  const dispatch = useAppDispatch();
+  const message = useAppSelector(selectMessage)
+  const dispatch = useAppDispatch()
 
   return (
     <div>
-      <h1>{message}</h1>
+      <AppRouter/>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
