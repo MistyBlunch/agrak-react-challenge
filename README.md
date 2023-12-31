@@ -72,3 +72,7 @@ npm i
 ```node
 npm run start
 ```
+![Screenshot 2023-12-31 035955](https://github.com/MistyBlunch/agrak-react-challenge/assets/29315728/53dc601c-fdd0-43a2-8c77-a7162f448915)
+![Screenshot 2023-12-31 035841](https://github.com/MistyBlunch/agrak-react-challenge/assets/29315728/350195e2-21ab-42f3-9fce-d701451eca62)
+
+
